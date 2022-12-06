@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DailyNotesFragment"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/notes_splash_image"
+        android:src="@drawable/notessplashscreenimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_below="@+id/notes_splash_image"
+        android:id="@+id/notes_splash_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write Your Notes"
+        android:textSize="50sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:fontFamily="@font/amita"
+        />
+
+
+
+</RelativeLayout>

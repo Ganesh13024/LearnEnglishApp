@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.GrammerExplanation.TensesActivity"
+    android:background="@color/white">
+
+    <ScrollView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+    <HorizontalScrollView
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TableRow
+                android:background="#0079D6"
+                android:padding="5dp">
+
+                <TextView
+                    android:textColor="#FFA500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="20dp"
+                    android:text="Tenses"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:textColor="#FFA500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="20dp"
+                    android:text="Simple"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:textColor="#FFA500"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="20dp"
+                    android:text="Continuous"
+                    android:textSize="20sp" />
+                <TextView
+                    android:textColor="#FFA500"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="20dp"
+                    android:text="Perfect"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:textColor="#FFA500"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="20dp"
+                    android:text="Perfect Continuous"
+                    android:textSize="20sp"/>
+            </TableRow>
+
+            <TableRow
+                android:background="#DAE8FC"
+                android:padding="5dp">
+
+                <TextView
+                    android:textColor="#FF007F"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Present"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="30sp"/>
+
+                <TextView
+                    android:textColor="#0000FF"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="S+V1\nEg:\nI Eat.\nHe Eats.\nWe Eat."
+                    />
+
+                <TextView
+                    android:textColor="#0000FF"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="S+am/is/are+V+ing\nEg:\nI am Eating.\nHe is Eating.\nWe are Eating." />
+                <TextView
+                    android:textColor="#0000FF"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="S+have/has+V3\nEg:\nI have Eaten.\nHe has Eaten./nWe have Eaten."/>
+                <TextView
+                    android:textColor="#0000FF"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="S+have/has+been+V+ing\nEg:\nI have been Eating.\nHe has been Eating.\nWe have been Eating." />
+            </TableRow>
+
+            <TableRow
+                android:background="#DAE8FC"
+                android:padding="5dp">
+
+                <TextView
+                    android:textColor="#FF007F"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Past"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textSize="30sp"/>
+
+                <TextView
+                    android:textColor="#00FF00"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="S+V2\nEg:\nI ate.\nHe ate\nWe ate." />
+
+                <TextView
+                    android:textColor="#00FF00"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="S+was/were+Ving\nEg:\nI was Eating.\nHe was Eating.\nWe were Eating." />
+                <TextView
+                    android:textColor="#00FF00"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="S+had+V3\nEg:\nI had Eaten.\nHe had Eaten.\nWe had Eaten."/>
+                <TextView
+                    android:textColor="#00FF00"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="S+had+been+V+ing\nEg:\nI had been Eating.\nHe had been Eating.\nWe had been Eating."/>
+            </TableRow>
+
+            <TableRow
+                android:background="#DAE8FC"
+                android:padding="5dp">
+
+                <TextView
+                    android:textColor="#FF007F"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:text="Future"
+                    android:textSize="30sp"/>
+
+                <TextView
+                    android:textColor="#0000FF"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="S+will+V1\nEg:\nI will Eat.\nHe will Eat.\nWe will Eat." />
+
+                <TextView
+                    android:textColor="#0000FF"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="S+will+be+V+ing\nEg:\nI will be Eating.\nHe will be Eating.\nWe will be Eating."/>
+                <TextView
+                    android:textColor="#0000FF"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="S+will+have+V3\nEg:\nI will have Eaten.\nHe will have Eaten.\nWe will have Eaten."/>
+                <TextView
+                    android:textColor="#0000FF"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="S+will+have+been+V+ing\nEg:\nI will have been Eating.\nHe will have been Eating.\nWe will have been Eating."/>
+            </TableRow>
+            <TableRow
+                android:background="#DAE8FC"
+                android:padding="5dp">
+
+                <TextView
+                    android:textColor="#FF007F"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:text="Future in \nPast"
+                    android:textSize="30sp"/>
+                <TextView
+                    android:textColor="#00FF00"
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="S+would+V1\nEg:\nI would have Eat.\nHe would eat.\nWe would Eat."/>
+                <TextView
+                    android:textColor="#00FF00"
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="S+would+be+V+ing\nEg:\nI would be Eating.\nHe would be eating.\nWe would be Eating."/>
+                <TextView
+                    android:textColor="#00FF00"
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="S+would+have+V3\nEg:\nI would have Eaten.\nHe would have Eaten.\nWe would have Eaten."/>
+                <TextView
+                    android:textColor="#00FF00"
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="S+would+been+V+ing\nEg:\nI would have been Eating.\nHe would have been Eating.\nWe would have been Eating."/>
+            </TableRow>
+        </TableLayout>
+    </HorizontalScrollView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

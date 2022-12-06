@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "816847089333",
+    "project_id": "application-c2dee",
+    "storage_bucket": "application-c2dee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816847089333:android:f6a6c50406210d972e18fc",
+        "android_client_info": {
+          "package_name": "com.example.learnenglish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816847089333-c425j1jjl9njiklvhabsvttml7c1ol4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfaUidN7CucyhxMJ32Zi-v29zc8z9qRKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816847089333-c425j1jjl9njiklvhabsvttml7c1ol4v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_dailystorys"
+            android:icon="@drawable/storiesicon"
+            android:title="Daily Stories" />
+        <item
+            android:id="@+id/nav_practicequiz"
+            android:icon="@drawable/practicequizicon"
+            android:title="Practice Quiz" />
+        <item
+            android:id="@+id/nav_dailyNotes"
+            android:icon="@drawable/notesicon"
+            android:title="Daily Notes" />
+        <item
+            android:id="@+id/nav_favourite_stories"
+            android:icon="@drawable/favouriteicon"
+            android:title="Favourite Stories" />
+    </group>
+</menu>

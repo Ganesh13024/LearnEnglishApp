@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ECE3B7"
+    tools:context=".Activities.GrammerExplanation.question_tag">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FD7676"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/amita_bold"
+                    android:gravity="center"
+                    android:padding="26dp"
+                    android:text="QUESTIONS TAG"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/adamina"
+                android:text="Sometimes people finish what they are saying with a short question. Why do they do this? Because they want to know if the person they are speaking to agrees with them.\n\n
+𝙉𝙊𝙏𝙀:\n
+1. A positive statement uses a negative tag.\n
+2. A negative statement uses a positive tag.\n\n
+𝙀𝙓𝘼𝙈𝙋𝙇𝙀:\n
+𝑵𝑬𝑮𝑨𝑻𝑰𝑽𝑬 𝑻𝑨𝑮 -\n
+      It is raining, isn’t it?\n
+      The main part of the sentence is positive, but the question tag is negative.\n\n
+𝑷𝑶𝑺𝑰𝑻𝑰𝑽𝑬 𝑻𝑨𝑮 -\n
+      It is not raining, is it?\n
+      The main part of the sentence is negative, but the question tag is positive.\n"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+
+            <Button
+                android:clickable="false"
+                android:id="@+id/bt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt1"
+                android:backgroundTint="#FD7676"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:padding="5dp"
+                android:text="1.STATEMENT WITH AUXILIARIES"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_below="@+id/bt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="19dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/adamina"
+                android:text="  𝙀𝙓𝘼𝙈𝙋𝙇𝙀:\n
+  1. David is older than you, 𝒊𝒔𝒏’𝒕 𝒉𝒆?\n
+  2. It is dark, 𝒊𝒔𝒏’𝒕 𝒊𝒕?\n
+  3. He and I can go by bus,𝒄𝒂𝒏’𝒕 𝒘𝒆?	\n
+  4. Sally can’t dance, 𝒄𝒂𝒏 𝒔𝒉𝒆?\n
+  5. Tigers are dangerous, 𝒂𝒓𝒆𝒏’𝒕 𝒕𝒉𝒆𝒚?\n
+  6. Sarah and Reeta will come, 𝒘𝒐𝒏’𝒕 𝒕𝒉𝒆𝒚?\n\n
+𝙉𝙊𝙏𝙀:\n
+    If the main part of the sentence has I am in it, use aren’t I in the question tag.\n
+    If the main part of the sentence has I am not in it, use am I in the question tag.\n\n
+𝙀𝙓𝘼𝙈𝙋𝙇𝙀:\n
+  1. I am your best teacher, 𝒂𝒓𝒆𝒏’𝒕 𝑰?\n
+  2. I am taller than you, 𝒂𝒓𝒆𝒏’𝒕 𝑰?\n
+  3. I am not your best teacher, 𝒂𝒎 𝑰?\n
+  4. I am not taller than you, 𝒂𝒎 𝑰?\n"
+                />
+
+            <Button
+                android:clickable="false"
+                android:id="@+id/bt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="2. STATEMENT WITHOUT AUXILIARIES"
+                android:backgroundTint="#FD7676"
+                android:layout_below="@+id/txt2"/>
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_below="@+id/bt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="19dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/adamina"
+                android:text="𝙀𝙓𝘼𝙈𝙋𝙇𝙀:\n
+  1. She 𝒔𝒊𝒏𝒈𝒔 beautifully,𝒅𝒐𝒆𝒔𝒏’𝒕 𝒔𝒉𝒆?\n
+  2. Rivers 𝒇𝒍𝒐𝒘 towards the sea, 𝒅𝒐𝒏’𝒕 𝒕𝒉𝒆𝒚?\n
+  3. The sun 𝒔𝒉𝒊𝒏𝒆𝒔 hot in summer, 𝒅𝒐𝒆𝒔𝒏’𝒕 𝒊𝒕?\n
+  4. Kabil 𝒃𝒓𝒐𝒌𝒆 the world record, 𝒅𝒊𝒅𝒏’𝒕 𝒉𝒆?\n"/>
+
+            <Button
+                android:clickable="false"
+                android:id="@+id/bt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="3. a. STATEMENTS USING AUXILIARIES"
+                android:backgroundTint="#FD7676"
+                android:layout_below="@+id/txt3"/>
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_below="@+id/bt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="19dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/adamina"
+                android:text="𝙀𝙓𝘼𝙈𝙋𝙇𝙀:\n
+ As has/have/had\n\n
+ 1. The bell 𝒉𝒂𝒔 rung, 𝒉𝒂𝒔𝒏’𝒕 𝒊𝒕?\n
+ 2. The flowers 𝒉𝒂𝒗𝒆 drooped, 𝒉𝒂𝒗𝒆𝒏’𝒕 𝒕𝒉𝒆𝒚?"/>
+            <Button
+                android:clickable="false"
+                android:id="@+id/bt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="3. b. STATEMENTS USING THE MAIN VERB"
+                android:backgroundTint="#FD7676"
+                android:layout_below="@+id/txt4"/>
+            <TextView
+                android:id="@+id/txt5"
+                android:layout_below="@+id/bt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="19dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/adamina"
+                android:text="𝙀𝙓𝘼𝙈𝙋𝙇𝙀:\n
+ As has/have/had - use do/does/did forms\n
+ 1. A lion 𝒉𝒂𝒔 sharp claws, 𝒅𝒐𝒆𝒔𝒏’𝒕 𝒊𝒕?\n
+ 2. Indians 𝒉𝒂𝒗𝒆 great respect for traditions, 𝒅𝒐𝒏’𝒕 𝒕𝒉𝒆𝒚?\n"/>
+
+            <Button
+                android:clickable="false"
+                android:id="@+id/bt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="4. STATEMENTS HAVING NEGATIVE WORDS USE POSITIVE TAG"
+                android:backgroundTint="#FD7676"
+                android:layout_below="@+id/txt5"/>
+            <TextView
+                android:id="@+id/txt6"
+                android:layout_below="@+id/bt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="19dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/adamina"
+                android:text="𝙀𝙓𝘼𝙈𝙋𝙇𝙀:\n
+    Using no, none, never, not, neither-nor\n\n
+      1. Rosy 𝒊𝒔 𝒏𝒐𝒕 going to come today, 𝒊𝒔 𝒔𝒉𝒆?\n
+      2. The cuckoo 𝒉𝒂𝒔 𝒏𝒐 care for its eggs, 𝒅𝒐𝒆𝒔 𝒊𝒕?\n
+      3. My father 𝒏𝒆𝒗𝒆𝒓 smokes, 𝒅𝒐𝒆𝒔 𝒉𝒆?\n
+      4. Neither John 𝒏𝒐𝒓 David 𝒉𝒂𝒔 any bad habits, 𝒅𝒐 𝒕𝒉𝒆𝒚?\n\n
+    Using little, few, scarcely, hardly, rarely\n\n
+      1. David 𝒔𝒉𝒐𝒘𝒔 𝒍𝒊𝒕𝒕𝒍𝒆 care in his studies, 𝒅𝒐𝒆𝒔 𝒉𝒆?\n
+      2. Antony 𝒔𝒄𝒂𝒓𝒄𝒆𝒍𝒚 listens in class, 𝒅𝒐𝒆𝒔 𝒉𝒆?\n
+      3. 𝑭𝒆𝒘 planets can be seen, 𝒄𝒂𝒏 𝒕𝒉𝒆𝒚?\n
+      4. They 𝒓𝒂𝒓𝒆𝒍𝒚 lose their points, 𝒅𝒐 𝒕𝒉𝒆𝒚?"/>
+            <Button
+                android:clickable="false"
+                android:id="@+id/bt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="5. STATEMENTS HAVING a little/a few ARE POSITIVE"
+                android:backgroundTint="#FD7676"
+                android:layout_below="@+id/txt6"/>
+            <TextView
+                android:id="@+id/txt7"
+                android:layout_below="@+id/bt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="19dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/adamina"
+                android:text="𝙀𝙓𝘼𝙈𝙋𝙇𝙀:\n
+ Therefore they use negative tag\n
+   1. A 𝒍𝒊𝒕𝒕𝒍𝒆 sugar is added to sauces, 𝒊𝒔𝒏’𝒕 𝒊𝒕?\n
+   2. I have 𝒂 𝒇𝒆𝒘 chocolates to share, 𝒉𝒂𝒗𝒆𝒏’𝒕 𝑰?
+
+"/>
+
+            <Button
+                android:clickable="false"
+                android:id="@+id/bt7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="6. Only USES BOTH POSITIVE AND NEGATIVE TAGS"
+                android:backgroundTint="#FD7676"
+                android:layout_below="@+id/txt7"/>
+
+            <TextView
+                android:id="@+id/txt8"
+                android:layout_below="@+id/bt7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="19dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/adamina"
+                android:text="𝙀𝙓𝘼𝙈𝙋𝙇𝙀:\n
+  1. 𝑶𝒏𝒍𝒚 children are allowed to play in the park, 𝒂𝒓𝒆/𝒂𝒓𝒆𝒏’𝒕 𝒕𝒉𝒆𝒚?\n
+  2. She 𝒅𝒊𝒅 𝒐𝒏𝒍𝒚 one mistake, 𝒅𝒊𝒅/𝒅𝒊𝒅𝒏’𝒕 𝒔𝒉𝒆?\n"/>
+            <Button
+                android:clickable="false"
+                android:id="@+id/bt8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="7. Let’s USES shall we"
+                android:backgroundTint="#FD7676"
+                android:layout_below="@+id/txt8"/>
+
+            <TextView
+                android:id="@+id/txt9"
+                android:layout_below="@+id/bt8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="19dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/adamina"
+                android:text="𝙀𝙓𝘼𝙈𝙋𝙇𝙀:\n
+  1. 𝑳𝒆𝒕’𝒔 go home, 𝒔𝒉𝒂𝒍𝒍 𝒘𝒆?/n
+  2. Let’s get together for a party, 𝒔𝒉𝒂𝒍𝒍 𝒘𝒆?\n"/>
+            <Button
+                android:clickable="false"
+                android:id="@+id/bt9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="8. SIMPLE REQUESTS USE will you?"
+                android:backgroundTint="#FD7676"
+                android:layout_below="@+id/txt9"/>
+
+            <TextView
+                android:id="@+id/txt10"
+                android:layout_below="@+id/bt9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="19dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/adamina"
+                android:text="𝙀𝙓𝘼𝙈𝙋𝙇𝙀:\n
+  1. Pass me the pen, 𝒘𝒊𝒍𝒍 𝒚𝒐𝒖?\n
+  2. Get me a ticket, 𝒘𝒊𝒍𝒍 𝒚𝒐𝒖?\n"/>
+
+            <Button
+                android:clickable="false"
+                android:id="@+id/bt10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="9. URGENT REQUESTS won’t you?"
+                android:backgroundTint="#FD7676"
+                android:layout_below="@+id/txt10"/>
+
+            <TextView
+                android:id="@+id/txt11"
+                android:layout_below="@+id/bt10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="19dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/adamina"
+                android:text="𝙀𝙓𝘼𝙈𝙋𝙇𝙀:\n
+    1. Send the e-mail, immediately, 𝒘𝒐𝒏’𝒕 𝒚𝒐𝒖?\n
+    2. Pass on the message soon,𝒘𝒐𝒏’𝒕 𝒚𝒐𝒖?"/>
+
+            <Button
+                android:clickable="false"
+                android:id="@+id/bt11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="10. IMPATIENT REMARKS can’t you?"
+                android:backgroundTint="#FD7676"
+                android:layout_below="@+id/txt11"/>
+
+            <TextView
+                android:id="@+id/txt12"
+                android:layout_below="@+id/bt11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="19dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/adamina"
+                android:text="𝙀𝙓𝘼𝙈𝙋𝙇𝙀:\n
+    1. Keep quiet, 𝒄𝒂𝒏’𝒕 𝒚𝒐𝒖?\n
+    2. Listion to me, 𝒄𝒂𝒏’𝒕 𝒚𝒐𝒖?"/>
+
+            <Button
+                android:clickable="false"
+                android:id="@+id/bt12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="11. STATEMENTS USING each, every, someone, somebody, anyone, anybody, none, nobody:"
+                android:backgroundTint="#FD7676"
+                android:layout_below="@+id/txt12"/>
+
+            <TextView
+                android:id="@+id/txt13"
+                android:layout_below="@+id/bt12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="19dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/adamina"
+                android:text="𝙀𝙓𝘼𝙈𝙋𝙇𝙀:\n
+   1. 𝑬𝒗𝒆𝒓𝒚𝒃𝒐𝒅𝒚 cheered, 𝒅𝒊𝒅𝒏’𝒕 𝒕𝒉𝒆𝒚?\n
+   2. 𝒔𝒐𝒎𝒆𝒃𝒐𝒅𝒚 can do it, 𝒄𝒂𝒏’𝒕 𝒕𝒉𝒆𝒚?"/>
+
+
+            <Button
+                android:id="@+id/gototag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt13"
+                android:text="Let's Play A Game..."
+                android:textAllCaps="false"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="#FFA500" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

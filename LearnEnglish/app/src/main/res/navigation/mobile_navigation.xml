@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.learnenglish.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_dailystorys"
+        android:name="com.example.learnenglish.ui.DailyStorys.DailyStoryFragment"
+        android:label="Daily Stories"
+        tools:layout="@layout/fragment_daily_storys" />
+
+    <fragment
+        android:id="@+id/nav_practicequiz"
+        android:name="com.example.learnenglish.ui.PracticeQuiz.PracticeQuizFragment"
+        android:label="Practice Quiz"
+        tools:layout="@layout/fragment_practice_quiz" />
+    <fragment
+        android:id="@+id/nav_dailyNotes"
+        android:name="com.example.learnenglish.DailyNotesFragment"
+        android:label="Daily Notes"
+        tools:layout="@layout/fragment_daily_notes" />
+    <fragment
+        android:id="@+id/nav_favourite_stories"
+        android:name="com.example.learnenglish.FavouriteStoriesFragment"
+        android:label="Your Favourite Stories"
+        tools:layout="@layout/fragment_nav_favourite_stories" />
+</navigation>

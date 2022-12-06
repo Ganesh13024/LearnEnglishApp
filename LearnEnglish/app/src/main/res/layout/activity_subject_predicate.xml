@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Activities.GrammerExplanation.subject_predicate">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FD7676"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/amita_bold"
+                    android:gravity="center"
+                    android:padding="26dp"
+                    android:text="SUBJECT AND PREDICATE"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="19dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/adamina"
+                android:text="A sentence is a grammatically independent unit of expression, made up of two essential parts called the Subject and the Predicate.\n\n
+Every complete sentence has a subject and a predicate.\n\n
+
+In grammar the person or thing we speak about is called the subject. What we say about the subject is called the predicate."/>
+
+            <Button
+                android:clickable="false"
+                android:id="@+id/bt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="SUBJECT"
+                android:backgroundTint="#83A6EC"
+                android:layout_below="@+id/txt1"/>
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="19dp"
+                android:layout_below="@+id/bt1"
+                android:textColor="@color/black"
+                android:fontFamily="@font/adamina"
+                android:text="Subjects tell the listener and the reader whom or what the sentence is about. The subject is that part of a sentence which names a person, thing, or idea\n\n
+𝙉𝙊𝙏𝙀:\n
+Every complete subject contains a simple subject. The simple subject, which is a noun or pronoun, is the most important word in the complete subject.\n\n
+𝙀𝙓𝘼𝙈𝙋𝙇𝙀:\n
+1. A loud 𝙖𝙧𝙜𝙪𝙢𝙚𝙣𝙩\n
+2. The newspaper 𝙖𝙧𝙩𝙞𝙘𝙡𝙚\n
+3 .𝙒𝙚 listened to the radio at the beach\n
+4. 𝙎𝙖𝙪𝙨𝙖𝙜𝙚 and 𝙢𝙪𝙨𝙝𝙧𝙤𝙤𝙢𝙨 are Leo’s favorite pizza toppings\n"/>
+            <Button
+                android:clickable="false"
+                android:id="@+id/bt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="PREDICATE"
+                android:backgroundTint="#83A6EC"
+                android:layout_below="@+id/txt2"/>
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="19dp"
+                android:layout_below="@+id/bt2"
+                android:textColor="@color/black"
+                android:fontFamily="@font/adamina"
+                android:text="The predicate is that part of a sentence which tells something about the subject.\n\n
+𝙉𝙊𝙏𝙀:\n
+A simple predicate (or verb) describes the action or condition of the subject or subjects in a sentence.\n\n
+𝙀𝙓𝘼𝙈𝙋𝙇𝙀:\n
+1. Danielle 𝙨𝙠𝙚𝙩𝙘𝙝𝙚𝙙\n
+2. always 𝙨𝙪𝙥𝙥𝙤𝙧𝙩 each other\n"/>
+            <Button
+                android:clickable="false"
+                android:id="@+id/bt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/averia_gruesa_libre"
+                android:text="SUBJECT AND PREDICATE EXAMPLES"
+                android:backgroundTint="#83A6EC"
+                android:layout_below="@+id/txt3"/>
+            <ImageView
+                android:id="@+id/pic1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/bt3"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/s_pag" />
+
+            <Button
+                android:id="@+id/gotosubject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Let's Play A Game..."
+                android:textAllCaps="false"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/pic1"/>
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

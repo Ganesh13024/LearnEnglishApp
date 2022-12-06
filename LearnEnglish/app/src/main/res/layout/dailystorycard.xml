@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:layout_marginTop="10dp">
+
+    <ImageView
+        android:id="@+id/dailystory_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/welcome_bg"
+        android:scaleType="centerCrop"
+        android:foreground="@drawable/foreground_design"
+        />
+    <TextView
+        android:id="@+id/dailystory_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="King and Queen"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/amita"
+        android:textColor="#801B23"
+        />
+
+    <Button
+        android:id="@+id/add_to_bookmark_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#801B23"
+        android:padding="8dp"
+        android:text="Add to Favourite ♥"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+
+</androidx.cardview.widget.CardView>
